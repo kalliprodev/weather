@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(" https://img.freepik.com/premium-photo/fuji-mountain-night-with-milky-way-galaxy_35024-1145.jpg") center/cover;
+}
+.wrapper .container {
+  display: flex;
+  align-items: center;
+}
+.wrapper .item {
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+}
+.wrapper .item:first-child {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.wrapper .item h2 {
+  font-size: 60px;
+}
+.wrapper .item h1 {
+  font-size: 110px;
+}
+.wrapper .item h3 {
+  font-size: 40px;
+}
+.wrapper .item i {
+  font-size: 40px;
+}
+.wrapper .item h4 {
+  font-size: 32px;
+}
+.wrapper .item input {
+  padding: 20px 40px;
+  width: 500px;
+  font-size: 32px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .container .item {
+    width: 90%;
+  }
+  .container .item h2 {
+    font-size: 40px !important;
+  }
+  .container:last-child {
+    padding: 0 !important;
+  }
+  .container input {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=main.css.map */
